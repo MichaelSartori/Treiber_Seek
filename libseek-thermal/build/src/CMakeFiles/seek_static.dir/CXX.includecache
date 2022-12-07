@@ -1,0 +1,88 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vm/Treiber Seek/libseek-thermal/src/SeekCam.cpp
+SeekCam.h
+/home/vm/Treiber Seek/libseek-thermal/src/SeekCam.h
+SeekLogging.h
+/home/vm/Treiber Seek/libseek-thermal/src/SeekLogging.h
+iomanip
+-
+
+/home/vm/Treiber Seek/libseek-thermal/src/SeekCam.h
+opencv2/opencv.hpp
+-
+SeekDevice.h
+/home/vm/Treiber Seek/libseek-thermal/src/SeekDevice.h
+
+/home/vm/Treiber Seek/libseek-thermal/src/SeekDevice.cpp
+SeekDevice.h
+/home/vm/Treiber Seek/libseek-thermal/src/SeekDevice.h
+SeekLogging.h
+/home/vm/Treiber Seek/libseek-thermal/src/SeekLogging.h
+libusb.h
+-
+endian.h
+-
+stdio.h
+-
+
+/home/vm/Treiber Seek/libseek-thermal/src/SeekDevice.h
+vector
+-
+cstdint
+-
+
+/home/vm/Treiber Seek/libseek-thermal/src/SeekLogging.h
+stdio.h
+-
+
+/home/vm/Treiber Seek/libseek-thermal/src/SeekThermal.cpp
+SeekThermal.h
+/home/vm/Treiber Seek/libseek-thermal/src/SeekThermal.h
+SeekLogging.h
+/home/vm/Treiber Seek/libseek-thermal/src/SeekLogging.h
+endian.h
+-
+
+/home/vm/Treiber Seek/libseek-thermal/src/SeekThermal.h
+opencv2/opencv.hpp
+-
+SeekCam.h
+/home/vm/Treiber Seek/libseek-thermal/src/SeekCam.h
+
+/home/vm/Treiber Seek/libseek-thermal/src/SeekThermalPro.cpp
+SeekThermalPro.h
+/home/vm/Treiber Seek/libseek-thermal/src/SeekThermalPro.h
+SeekLogging.h
+/home/vm/Treiber Seek/libseek-thermal/src/SeekLogging.h
+endian.h
+-
+
+/home/vm/Treiber Seek/libseek-thermal/src/SeekThermalPro.h
+opencv2/opencv.hpp
+-
+SeekCam.h
+/home/vm/Treiber Seek/libseek-thermal/src/SeekCam.h
+
+/usr/include/libusb-1.0/libusb.h
+stdint.h
+-
+sys/types.h
+-
+sys/time.h
+-
+time.h
+-
+limits.h
+-
+windows.h
+-
+winsock.h
+-
+
